@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Train Scheduler</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center" style="background-color: darkgreen; color: white;">
+            <h1 class="display-4">Your Dedicated Train Schedule</h1>
+            <p class="lead">Choo Choo-Chee Chee</p>
+        </div>  
+        
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="5" style="background-color: darkgreen; color: white;">Current Train Schedule</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Train Name</th>
+                        <th scope="row">Destination</th>
+                        <th scope="row">Frequency (min)</th>
+                        <th scope="row">Next Arrival</th>
+                        <th scope="row">Minutes Away</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cali Dreamin' Train</td>
+                        <td>San Diego</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Sin-City Express</td>
+                        <td>Las Vegas</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Windy City Express</td>
+                        <td>Chicago</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Georgia Peach Railway</td>
+                        <td>Atlanta</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="email">Train Name</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Destination</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/javascript/hw.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</body>
+</html>
