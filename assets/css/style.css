@@ -1,4 +1,18 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-};
+h1 {
+	/*color: #F70201;*/
+	text-shadow: 3px 3px darkgreen;
+	font-weight: bold;
+}
+
+h4,h5 {
+	text-shadow: 1px 1px darkgreen;
+}
+
+img {
+	border: 3px solid white;
+}
+
+.btn.btn-primary {
+	text-shadow: .25px .25px darkgreen;
+	border: 1.25px solid darkgreen;
+}
