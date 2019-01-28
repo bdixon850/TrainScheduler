@@ -16,3 +16,7 @@ img {
 	text-shadow: .25px .25px darkgreen;
 	border: 1.25px solid darkgreen;
 }
+
+body {
+	background-color: black;
+}
