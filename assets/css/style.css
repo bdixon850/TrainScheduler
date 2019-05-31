@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+}
+
 h1 {
 	/*color: #F70201;*/
 	text-shadow: 3px 3px darkgreen;
@@ -17,6 +21,3 @@ img {
 	border: 1.25px solid darkgreen;
 }
 
-body {
-	background-color: black;
-}
