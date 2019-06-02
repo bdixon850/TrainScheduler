@@ -14,7 +14,8 @@ var config = {
   var database = firebase.database();
 
   // Function to send data to firebase
-  $('#submitButton').on('click', function(){
+  $('#submitButton').on('click', function(e){
+    e.preventDefault;
     var trainName = $('#trainname-input').val().trim();
     var destination = $('#destination-input').val().trim();
     var firstTrain = moment($('#firsttime-input').val().trim(), "HH:mm").subtract(10, "years").format("x");
