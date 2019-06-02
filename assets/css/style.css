@@ -1,15 +1,26 @@
 body {
-	background-color: black;
+	background-color: lightgray
+}
+
+
+.jumbotron {
+	background-color: navy;
+	color: white;
 }
 
 h1 {
-	/*color: #F70201;*/
-	text-shadow: 3px 3px darkgreen;
 	font-weight: bold;
+	text-align: center;
 }
 
-h4,h5 {
-	text-shadow: 1px 1px darkgreen;
+h5 {
+	text-align: center;
+
+}
+
+.card-header {
+	background-color: navy;
+	color: white;
 }
 
 img {
@@ -17,7 +28,6 @@ img {
 }
 
 .btn.btn-primary {
-	text-shadow: .25px .25px darkgreen;
 	border: 1.25px solid darkgreen;
 }
 
